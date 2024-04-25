@@ -156,15 +156,12 @@ h2{
     align-items: center;
 }
 
-
-
 .titulos{
     display: flex;
     justify-content: space-around;
     font-weight: 700;
     font-size: larger
-    
-   
+       
 }
 
 .titulo__catego{
@@ -172,7 +169,7 @@ h2{
 }
 
 .titulo__popular{
-    padding-right: 396px;
+    padding-right: 395px;
 }
 
 .tarjeta__box h5{
