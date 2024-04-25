@@ -6,16 +6,27 @@ body{
 
 .logo{
     margin: 30px;
+    margin-left: 80px;
 }
 
 .logo__box--img{
     width: 80px;
-    padding-right: 30px;
+    border-radius: 30px;
+
 }
 
 .logo__box{
     display: flex;
+    align-items: center;
     
+}
+
+h1{
+    padding-left: 10px;
+}
+
+.logo__box p{
+    padding-left: 5px;
 }
 
 section{
@@ -72,6 +83,8 @@ section{
 .tarjeta__box--img{
     width: 25vw;
     height: 13vw;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 .tarjeta{
@@ -89,7 +102,11 @@ section{
 .categoria__box{
     display: flex;
     margin: 10px;
-    
+    border-radius: 5px;
+}
+
+.categoria p{
+    padding-left: 10px;
 }
 
 .html{
@@ -123,4 +140,63 @@ section{
     font-style: normal;
     width: 20vw;
      
+}
+
+h2{
+    margin-left: 80px;
+}
+
+.tarjeta__boxlogo--img{
+    width: 50px;
+    border-radius: 50px;
+}
+
+.tarjeta__boxlogo{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.titulos{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: larger
+    
+   
+}
+
+.titulo__catego{
+    padding-right: 184px;
+}
+
+.titulo__popular{
+    padding-right: 396px;
+}
+
+.tarjeta__box h5{
+    font-weight: 700;
+    font-size: large;
+}
+
+.tarjeta__box p{
+    font-weight: 400;
+}
+
+.section1__box h4{
+    font-weight: 700;
+}
+
+.tarjeta__boxlogo p{
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 80px;
 }
